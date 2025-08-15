@@ -7,6 +7,7 @@ interface Project {
   title: string;
   description: string;
   imageUrl: string;
+  liveSite: string | null;
   githubUrl: string;
 }
 
@@ -34,7 +35,23 @@ const ProjectTile = ({project}: {project: Project}) => {
               </React.Fragment>
             ))}
           </p>
-          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>View on GitHub</a>
+          
+          <div>
+            <a 
+              href={project.githubUrl} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              onClick={(e) => e.stopPropagation()}>GitHub Repository
+            </a>
+          </div>
+          <div>
+            {/* Conditionally render the "Live Site" link only if the liveSite is not null */}
+            {project.liveSite && (
+              <a href={project.liveSite} target="_blank" rel="noopener noreferrer">
+                Live Site
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </div>

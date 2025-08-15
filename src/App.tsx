@@ -8,21 +8,24 @@ const projects = [
         title: 'React Portfolio',
         description: 'A personal portfolio site generated from Vite and customized to showcase my latest resume and projects.\nTechnologies used: React, TypeScript',
         imageUrl: '/favicon.svg',
-        githubUrl: 'https://github.com/yourusername/project1'
+        githubUrl: 'https://github.com/kmautz5/my-portfolio',
+        liveSite: 'https://kmautz5.github.io/my-portfolio/' 
     },
     {
         id: 2,
         title: 'Alien Beats',
         description: 'A cloud-based music recommendation engine. The user inputs a popular song name and gets suggested a similar song based on its BPM.\nTechnologies used: AWS, SQL, Python, JavaScript',
-        imageUrl: '/reco_icon.svg', // Use a real image URL
-        githubUrl: 'https://github.com/yourusername/project2'
+        imageUrl: '/reco_icon.svg',
+        githubUrl: 'https://github.com/yourusername/project2',
+        liveSite: null
     },
     {
         id: 3,
         title: 'Battleship Game',
         description: 'A Python game played via command prompt.',
-        imageUrl: 'https://via.placeholder.com/300x200', // Use a real image URL
-        githubUrl: 'https://github.com/yourusername/project3'
+        imageUrl: 'https://via.placeholder.com/300x200',
+        githubUrl: 'https://github.com/kmautz5/battleship',
+        liveSite: null
     }
 ]
 
@@ -31,7 +34,7 @@ function App() {
     <>
       <a
         href="/kelly_mautz_resume.pdf"
-        download="/KellyMautz_Resume_s08072025.pdf"
+        download="/KellyMautz_Resume_s08152025.pdf"
         className="image-container-link"
       >
         <div className="image-container">
