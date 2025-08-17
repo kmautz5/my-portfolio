@@ -7,7 +7,7 @@ const projects = [
         id: 1,
         title: 'React Portfolio',
         description: 'A personal portfolio site generated from Vite and customized to showcase my latest resume and projects.\nTechnologies used: React, TypeScript',
-        imageUrl: '/favicon.svg',
+        imageUrl: 'favicon.svg',
         githubUrl: 'https://github.com/kmautz5/my-portfolio',
         liveSite: 'https://kmautz5.github.io/my-portfolio/' 
     },
@@ -15,7 +15,7 @@ const projects = [
         id: 2,
         title: 'Alien Beats',
         description: 'A cloud-based music recommendation engine. The user inputs a popular song name and gets suggested a similar song based on its BPM.\nTechnologies used: AWS, SQL, Python, JavaScript',
-        imageUrl: '/reco_icon.svg',
+        imageUrl: 'reco_icon.svg',
         githubUrl: 'https://github.com/yourusername/project2',
         liveSite: null
     },
@@ -38,7 +38,7 @@ function App() {
         className="image-container-link"
       >
         <div className="image-container">
-          <img src="/resumecircles.svg" className="logo" alt="Resume Circles" />
+          <img src="resumecircles.svg" className="logo" alt="Resume Circles" />
           <p className="overlay-text">Kelly Mautz</p>
         </div>
       </a>
