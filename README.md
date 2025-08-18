@@ -12,7 +12,7 @@ The CSS styling, colors and images were all curated by me. The layout was design
 
 It will be possible to add/remove projects in the future as needed.
 
-##Technologies Used
+## Technologies Used
 
 Frontend: React, TypeScript
 
@@ -22,7 +22,7 @@ Deployment: GitHub Pages
 
 Version Control: Git
 
-##How to Run Locally
+## How to Run Locally
 
 Clone the repository: git clone https://github.com/kmautz5/my-portfolio
 
