@@ -1,5 +1,7 @@
 # React + TypeScript + Vite Portfolio Website
 
+Access the live URL: https://kmautz5.github.io/my-portfolio/
+
 Initially I generated the template using Vite. 
 
 I began customizing it by removing unecessary template objects and images. I added my resume download link at the top. The user simply clicks to download the latest resume file.
@@ -27,3 +29,6 @@ Clone the repository: git clone https://github.com/kmautz5/my-portfolio
 Install dependencies: npm install (or yarn)
 
 Run the development server: npm run dev
+
+Access the URL listed, ex:
+	Local: http://localhost:5173/my-portfolio/ 
