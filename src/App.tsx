@@ -21,9 +21,9 @@ const projects = [
     },
     {
         id: 3,
-        title: 'Battleship Game',
+        title: 'Battleship',
         description: 'A Python game played via command prompt.',
-        imageUrl: 'https://via.placeholder.com/300x200',
+        imageUrl: 'ship_icon.svg',
         githubUrl: 'https://github.com/kmautz5/battleship',
         liveSite: null
     }
@@ -34,7 +34,7 @@ function App() {
     <>
       <a
         href="/kelly_mautz_resume.pdf"
-        download="/KellyMautz_Resume_s08152025.pdf"
+        download="/KellyMautz_Resume_s081925.pdf"
         className="image-container-link"
       >
         <div className="image-container">
